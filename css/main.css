@@ -1,0 +1,30 @@
+h1 {
+color: orange;
+font: 36px Georgia;
+text-decoration: blink;
+}
+h2, h3 {
+color: Navy;
+font-family: Helvetica;
+}
+#main {
+color: Lime; 
+font: 20px Arial;
+}
+.special {
+color: yellow; 
+font: 20px Arial;
+}
+ul li {
+color: maroon;
+}
+a:hover {
+color: Red;
+}
+a:active {
+color: Blue;
+}
+* {
+font: Verdana;
+color: green;
+}
