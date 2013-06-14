@@ -1,0 +1,100 @@
+/*---------------------Defaults-------------------------*/
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: #ffe;
+	width: 960px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: .5em 5px;
+	text-indent: 30px;
+}
+h1, h2, h3 {
+	font-family: Alef, Helvetica, Arial, sans-serif;
+}
+h2, h3 {
+	clear: left;
+	text-indent: 5px;
+	display: block;
+	background-color: #bce;
+}
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alef Regular'), local('Alef-Regular'), url(http://themes.googleusercontent.com/static/fonts/alef/v1/tZeduU5-mwXNlHG2cx5KCvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+/*---------------------Nav Content-----------------------*/
+nav {
+	float: right;
+	width: 400px;
+	font-family: Alef, Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	overflow: hidden;
+	width: 400px;
+
+}
+
+nav ul li {
+	float: left;
+	width: 100px;
+}
+
+nav ul a {
+	background: #79d;
+	color: #fff;
+	border-bottom: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+nav ul a:hover {
+	background: #fff;
+	color: #79d;
+	border-bottom: 1px solid #bce;
+}
+/*---------------------Main Content-----------------------*/
+section {
+	width: 465px;
+	margin: 5px 5px;
+	background-color: #eee;
+	border: solid #999 1px;
+}
+section h2 {
+	margin: 0 0;
+	
+}
+section div img {
+	float: left;
+	margin: 10px;
+}
+.main-content{
+	float: left;
+}
+#gallery {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#gallery li {
+	float: left;
+	padding: 10px;
+	background-color: #bce;
+	margin: 5px;
+}

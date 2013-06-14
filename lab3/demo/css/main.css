@@ -1,0 +1,70 @@
+body{
+	font: 100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #3e3e3e;
+	background-color: #f3f3f3;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px solid purple;
+}
+
+h1 {
+}
+
+/*---------------------Nav Content-----------------------*/
+nav{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	width: 100px;
+	float: left;
+}
+
+nav ul a{
+	background: red;
+	color: white;
+	border-bottom: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+}
+nav ul a:hover{
+	background: white;
+	color: red;
+	border-bottom: 1px solid red;
+}
+
+
+/*---------------------Main Content-----------------------*/
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+
+}
+
+section p{
+	width: 300px;
+	border: 5px solid black;
+	margin-right: 10px;
+	background: silver;
+	float: left;
+}
+
+aside{
+	clear: left;
+}
+
