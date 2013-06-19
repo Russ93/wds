@@ -1,0 +1,190 @@
+/*-------------------- Gradient ----------------------*/
+body {
+	background: url("../images/honeycomb-bg.jpg");
+	width: 960px;
+	margin: 0 auto;
+}
+#wrapper {
+		background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); 
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); 
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+	/* IE10+ */
+	background: linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+	/* W3C */
+}
+/*--------------------- Button -----------------------*/
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	/* FF3.6+ */
+	background: -moz-linear-gradient(
+		top,
+		#ddeeff 0%,
+		#445555);
+	/* Chrome,Safari4+ */
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ddeeff),
+		to(#445555));
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #445555;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+	margin: -150px 0 0 0;
+	float: left;
+	height: 25px;
+	width: 60px;
+	text-decoration: none;
+	text-align: center;
+}
+/*-----------------General Defaults-------------------*/
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #eff;
+}
+h1, h2, h3 {
+	font-family: orbitron, helvetica, arial, sans-serif;
+	clear: both;
+}
+h2 {
+	text-indent: 5px;
+}
+p, dt {
+	margin: auto 5px;
+}
+section, aside {
+	width: 64%;
+	border: 1px solid #def;
+	box-shadow: 0 0 10px #9ce;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5px 1%;
+}
+#main {
+	float: left;
+}
+header section {
+	text-align: center;
+	width: 98%;
+}
+/*--------------------- Header -----------------------*/
+header h1 {
+	height: 220px;
+	width: 960px;
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../images/header.jpg) no-repeat 0 0;
+	margin: 0 0 0 auto;
+}
+/*------------------- Navigation ---------------------*/
+nav {
+	text-align: center;
+	margin: 0 17%;
+}
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	padding: 0;
+	width: 650px;
+	height: 36px;
+	overflow: hidden;
+}
+nav ul li a{
+	background-image: url(../images/buttonsprite.png);
+	padding: 0;
+	height: 37px;
+	width: 206px;
+	float: left;
+	text-indent: 100%;
+	white-space: nowrap;
+	background-position: 0;
+	margin: 0 5px;
+}
+.products {
+	background-position: 0;
+}
+.shop {
+	background-position: -205px 0;
+}
+.support {
+	background-position: -410px 0;
+}
+/*------------------ Hover States -------------------*/
+a.products:hover {
+	background-position: 0 -39px;
+}
+a.shop:hover {
+	background-position: -205px -39px;
+}
+a.support:hover {
+	background-position: -410px -39px;
+}
+/*----------------- Active States -------------------*/
+a.products:active {
+	background-position: 0 -78px;
+}
+a.shop:active {
+	background-position: -205px -78px;
+}
+a.support:active {
+	background-position: -410px -78px;
+}
+/*-------------------- Gallery ----------------------*/
+.gallery {
+	margin: 10px 0;
+	width: 32.75%;
+}
+.gallery ul {
+	padding: 0;
+	list-style-type: none;
+}
+.gallery ul li{
+	float: left;
+}
+/*---------------- Call To Action -------------------*/
+#cta {
+	text-align: center;
+	width: 98%;
+}
+#cta p {
+	font: Italic 12px/1 Helvetica, Arial, sans-serif;
+	text-indent: 10px;
+	width: 79%;
+	float: left;
+	text-align: left;
+	margin: 0 10px 10px;
+}
+/*-------------------- Content ----------------------*/
+aside {
+	width: 32.75%;
+}
+aside ul {
+	font-size: 12px;
+}
+/*--------------------- Footer ----------------------*/
+footer {
+	float: left;
+}
