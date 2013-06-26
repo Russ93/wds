@@ -158,6 +158,7 @@ address {
 }
 #content {
 	z-index: 2;
+	background-image: url(../img/sprocket.gif);
 	position: relative;
 	top: -727px;
 	background-color: #fff;
