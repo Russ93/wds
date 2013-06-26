@@ -1,0 +1,170 @@
+/*---------------------Defaults-------------------------*/
+html {
+	font-family: helvetica, arial, sans-serif;
+	height: auto;
+	text-decoration: none;
+}
+body{
+	background: #4a7eae;
+	/* Old browsers */
+	background: -moz-linear-gradient(top,  #4a7eae 1%, #7199dc 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#4a7eae), color-stop(100%,#7199dc));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4a7eae 1%,#7199dc 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4a7eae 1%,#7199dc 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4a7eae 1%,#7199dc 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom,  #4a7eae 1%,#7199dc 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a7eae', endColorstr='#7199dc',GradientType=0 );
+	/* IE6-9 */
+	height: auto;
+	width: 760px;
+	margin: 0 auto;
+}
+h1, h2, h3 {
+	font: italic bold 26px/1 Verdana, Helvetica, Arial, sans-serif;
+}
+p {
+	font: 12px/1 Verdana, Arial, Helvetica, sans-serif;
+}
+/*--------------------- Header --------------------------*/
+h1 {
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 260px;
+}
+h1 a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#header {
+	z-index: 2;
+	position: relative;
+	top: -910px;
+	left: 15px;
+	font: bold italic 22px/2 Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	height: 55px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*---------------------Navigation-------------------------*/
+/*blue text #4a7cb6*/
+#nav {
+	z-index: 3;
+	position: relative;
+	background-image: url(../img/bg_intellectual_business_solutions.png);
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 260px;
+	width: 213px;
+	top: -95px;
+	left: 20px;
+	list-style-type: none;
+	padding: 74px 0 0 0;
+	font: italic 14px/1 Arial, Helvetica, sans-serif;
+}
+ul#nav{
+	padding-top: 74px;
+}
+ul#nav li{
+	display: block;
+	height: 30px;
+	border: #eee solid 1px;
+	text-indent: 30px;
+}
+ul#nav li a{
+	padding: 7px 0 0 0;
+	display: block;
+	height: 30px;
+	width: 213px;
+	text-decoration: none;
+	color: #424242;
+}
+ul#nav li a:hover{
+	color: #4a7cb6;
+	
+}
+/*--------------------- Aside --------------------------*/
+#quote {
+	z-index: 3;
+	position: relative;
+	background-image: url(../img/quote_left.gif), url(../img/quote_right.gif);
+	background-size: 20px 15px;
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 30px;
+	width: 213px;
+	top: -110px;
+	left: 20px;
+	padding: 74px 0 0 0;
+	font: italic 14px/1 "Trebuchet MS",Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #ccc;
+}
+#quote p {
+	z-index: 5;
+	position: relative;
+	bottom: 35px;
+	margin: 0 0 70px 0;
+}
+address {
+	z-index: 3;
+	position: relative;
+	background-color: #fff;
+	height: 95px;
+	width: 213px;
+	top: -110px;
+	left: 20px;
+	padding: 25px 0 0 0;
+	font: italic 14px/1 "Trebuchet MS",Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #ccc;
+}
+#phone {
+	z-index: 3;
+	position: relative;
+	background-color: #fff;
+	height: 35px;
+	width: 213px;
+	top: -150px;
+	left: 20px;
+	font: italic 14px/1 "Trebuchet MS",Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #ccc;
+}
+#phone, address {
+	font: italic 12px/1 Arial, Helvetica, sans-serif;
+	color: #424242;
+}
+/* height: 535 width: 215 */
+/*--------------------- Content -------------------------*/
+#global_shadow {
+	background-image: url(../img/global_shadow.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+#content {
+	z-index: 2;
+	position: relative;
+	top: -727px;
+	background-color: #fff;
+	margin: 0;
+	padding: 1px 30px 20px 250px;
+	height: auto;
+}
+h2 {
+	color: #4a7db2;
+}
